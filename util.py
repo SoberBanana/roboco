@@ -9,8 +9,6 @@ commands = {
     "pinsetid": [],
     "channelblock": [],
     "channelidblock": [],
-    "clip": [],
-    "onii-chan": [],
     "bean": [],
     "help": [],
     None: [],
