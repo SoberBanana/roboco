@@ -15,7 +15,7 @@ slash = discord_slash.SlashCommand(client, sync_commands=True)
 kalm_moments: discord.TextChannel
 clip_request: discord.TextChannel
 nice_channel: discord.TextChannel
-slash_command_guilds = [780938154437640232]
+slash_command_guilds = [599331416773230593]
 onii_chan: str
 help_file: str
 
@@ -74,7 +74,7 @@ async def wait_delete(message: discord.Message, time: float = 1):
 async def on_ready():
     global kalm_moments, clip_request, nice_channel
     print("We have logged in as", client.user)
-    kalm_moments = client.get_channel(796900918901080085)
+    kalm_moments = client.get_channel(887839202174181416)
     clip_request = client.get_channel(820547559319273473)
     nice_channel = client.get_channel(829385883735556108)
 
