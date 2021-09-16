@@ -178,7 +178,7 @@ async def on_set(message: discord.Message, message_content: str):
              description="Gives a role permission to pin messages. Uses the role's ID. Requires the @Contributor role.",
              options=[
                  discord_slash.utils.manage_commands.create_option(
-                     name="roleId",
+                     name="roleid",
                      description="The ID of role that you want to add to the approved role list.",
                      option_type=3,
                      required=True
@@ -195,7 +195,7 @@ async def on_slash_set(ctx: discord_slash.SlashContext, roleid: str):
              description="Removes a role's permission to pin messages. Uses the role's ID. Requires the @Contributor role.",
              options=[
                  discord_slash.utils.manage_commands.create_option(
-                     name="roleId",
+                     name="roleid",
                      description="The ID of role that you want to remove from the approved role list.",
                      option_type=3,
                      required=True
