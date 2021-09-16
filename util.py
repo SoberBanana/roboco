@@ -64,4 +64,4 @@ async def is_clip_requester(user):
     return any(x.name.lower() in clip_requester_roles for x in user.roles)
 
 async def is_contributor(user):
-    return any(x.name.lower() == "contributor" for x in user.roles)
+    return any(x.name.lower() == "老公" for x in user.roles)
